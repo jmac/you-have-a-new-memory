@@ -22,7 +22,7 @@ body {
 }
 
 a {
-  color: rgba(255, 255, 255, 0.75);
+  color: rgba(255, 255, 255, 0.85);
   text-decoration: none;
   border-bottom: 1px solid rgba(255, 255, 255, 0.75);
 
@@ -30,6 +30,13 @@ a {
     color: #ffcc00;
     border-bottom: 1px solid #ffcc00;
   }
+}
+
+nav {
+  font-size: 2.6rem;
+  text-align: left;
+  margin-top: 1rem;
+  padding-left: 1rem;
 }
 
 header, #content, footer {
@@ -49,7 +56,6 @@ header {
 .container {
   width: 100%;
   margin: 10rem auto;
-  padding: 0 5rem;
   font-size: 2.6rem
 }
 
@@ -59,23 +65,50 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0;  
 }
 
-p {
-  line-height: 1.5;
+h3 {
+  font-size:2.6rem;
+  line-height: 1.2;
   margin-bottom: 1em;
+  text-align: center;
+  font-size: 
+}
+
+audio {
+  width: 75%;
+  margin-bottom: 2rem;
+}
+
+p {
+  font-size:1.8rem;
+  line-height: 1.2;
+  margin-bottom: 1em;
+  text-align: left;
+  font-size: 
+}
+
+#content {
+  width: 80%;
+  margin: 0 auto;
 }
 
 .qr-code {
   display: block;
-  max-width: 200px;
-  max-height: 200px;
+  width: 15rem;
+  height: 15rem;
   margin: 0 auto;
   margin-bottom: 2rem;
   border-bottom: 0;
 }
 
 footer {
-  font-size: 1.6rem;
+
+  p {
+    font-size: 1.4rem;
+  }
+  
   font-family: monospace;
+  width: 80%;
+  margin: 5rem auto;
 }
 
 
