@@ -23,18 +23,17 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
-  line-height: 1; 
-  margin-bottom: 0;  
+  line-height: 1;
+  margin-bottom: 0;
 }
 
 a {
   color: rgba(255, 255, 255, 0.85);
   text-decoration: none;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.75);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.85);
 
   &:hover {
-    color: #ffcc00;
-    border-bottom: 1px solid #ffcc00;
+      color: rgba(255, 255, 255, 0.55);
   }
 }
 
@@ -67,10 +66,8 @@ header {
 }
 
 #content {
-  font-family: "Diatype Variable", sans-serif;  
+  font-family: "Diatype Variable", sans-serif;
 }
-
-
 
 h3 {
   font-size:3rem;
@@ -81,7 +78,8 @@ h3 {
 
 audio {
   width: 75%;
-  margin-bottom: 10rem;
+  margin: 0 auto 1rem;
+  display: block;
 }
 
 p {
@@ -96,6 +94,14 @@ p {
   margin: 0 auto 5rem;
 }
 
+.next-chapter {
+  margin: 1rem 0 10rem;
+
+  h3 {
+    font-size: 2.4rem;
+  }
+}
+
 .qr-code {
   display: block;
   width: 20rem;
@@ -108,8 +114,8 @@ p {
 footer {
   width: 80%;
   margin: 5rem auto;
-  font-family: "Monument Grotesk Mono Variable", monospace;  
-  
+  font-family: "Monument Grotesk Mono Variable", monospace;
+
 
   p {
     font-size: 1.4rem;
@@ -124,7 +130,7 @@ footer {
   .container {
     max-width: 100%;
     padding: 0 10px;
-    
+
   }
 }
 
