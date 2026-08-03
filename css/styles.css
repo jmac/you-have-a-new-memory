@@ -123,8 +123,7 @@ footer {
   margin: 5rem auto;
   font-family: "Monument Grotesk Mono Variable", monospace;
 
-
-  p {
+  h3, p {
     font-size: 1.4rem;
     text-align: center;
   }
